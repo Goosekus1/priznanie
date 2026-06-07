@@ -1,0 +1,15 @@
+body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #fff0f3;
+            position: fixed; /* Намертво блокирует страницу на экране телефона */
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            overflow: hidden; /* Запрещает любой скролл и верчение */
+            touch-action: none; /* Запрещает телефону зумить и двигать экран пальцами */
+        }
